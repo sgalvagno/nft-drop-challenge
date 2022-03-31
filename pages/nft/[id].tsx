@@ -31,7 +31,7 @@ function NFTDropPage() {
         <hr className='my-2 border'/>
 
         {/* Content */}
-        <div >
+        <div className='mt-10 flex flex-1 flex-col items-center space-y-6'>
             <img className='w-80 object-cover pb-10 lg:h-40' 
                 src='https://links.papareact.com/bdy' alt=""/>
             <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>
