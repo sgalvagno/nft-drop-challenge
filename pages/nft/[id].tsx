@@ -1,9 +1,19 @@
 import React from 'react'
 
 function NFTDropPage() {
-  return (
-    <div>This is the NFTDropPage</div>
-  )
+  return <div>
+       {/* Left */} 
+       <div>
+
+       </div>
+
+       {/* Right */}
+       <div>
+
+       </div>
+       
+    </div>
+  
 }
 
 export default NFTDropPage
