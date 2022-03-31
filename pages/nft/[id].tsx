@@ -18,8 +18,8 @@ function NFTDropPage() {
        {/* Right */}
        <div>
         {/* Header */}
-        <header>
-            <h1 className='h-52 cursor-pointer text-xl font-extralight sm:w-80'>
+        <header className='flex items-center justify-between'>
+            <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80'>
                 The{' '}<span className='font-extrabold underline decoration-pink-600/50'>PAPAFARM</span>{' '}
                  NFT Market Place</h1>
             <button className='rounded-full bg-rose-400 px-5 py-2 
