@@ -16,7 +16,7 @@ function NFTDropPage() {
        </div>
 
        {/* Right */}
-       <div>
+       <div className='flex flex-1 flex-col p-12 lg:col-span-6'>
         {/* Header */}
         <header className='flex items-center justify-between'>
             <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80'>
