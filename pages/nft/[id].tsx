@@ -5,7 +5,9 @@ function NFTDropPage() {
        {/* Left */} 
        <div className='bg-gradient-to-br from-cyan-800 to-rose-500'>
             <div>
-                <img className='w-44 rounded-xl object-cover lg:h-96 lg:w-72' src="https://links.papareact.com/8sg" alt=""/>
+                <div className='bg-gradient-to-br from-yellow-400 to-purple-600'>
+                    <img className='w-44 rounded-xl object-cover lg:h-96 lg:w-72' src="https://links.papareact.com/8sg" alt=""/>
+                </div>
                 <div>
                     <h1 className='text-4xl font-bold text-white'>PAPAFAM Apes</h1>
                     <h2 className='text-xl text-gray-300'>A collection of PAPAFAM Apes who live & breathe React!</h2>
