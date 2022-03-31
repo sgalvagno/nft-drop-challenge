@@ -40,6 +40,7 @@ return <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'>
         </header>
 
         <hr className='my-2 border'/>
+        {address && <p>You're logged inb with wallet {address.substring(0,5)}...{address.substring(address.length-5)}</p>}
 
         {/* Content */}
         <div className='mt-10 flex flex-1 flex-col items-center space-y-6 text-center lg:justify-center lg:space-y-0 '>
