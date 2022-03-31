@@ -31,7 +31,9 @@ function NFTDropPage() {
         <hr className='my-2 border'/>
 
         {/* Content */}
-
+        <div>
+            <img src='https://links.papareact.com/bdy' alt=""/>
+        </div>
         {/* Mint Button */}
 
        </div>
