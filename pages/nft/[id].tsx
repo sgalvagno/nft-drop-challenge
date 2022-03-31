@@ -37,6 +37,8 @@ function NFTDropPage() {
             <h1 className='text-3xl font-bold lg:text-5xl lg:font-extrabold'>
                 The PAPAFAM Ape Coding Club | NFT Drop
             </h1>
+
+            <p className='pt-2 text-xl text-green-500 '>15 / 21 NFT's claimed</p>
         </div>
         {/* Mint Button */}
 
