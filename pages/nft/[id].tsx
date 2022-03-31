@@ -28,6 +28,8 @@ function NFTDropPage() {
             </button>
         </header>
 
+        <hr className='my-2 border'/>
+
         {/* Content */}
 
         {/* Mint Button */}
