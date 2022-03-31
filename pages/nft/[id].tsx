@@ -1,7 +1,7 @@
 import React from 'react'
 
 function NFTDropPage() {
-  return <div className='flex h-screen flex-col'>
+  return <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'>
        {/* Left */} 
        <div className='bg-gradient-to-br from-cyan-800 to-rose-500'>
             <div className='flex flex-col items-center justify-center py-2 lg:min-h-screen'>
