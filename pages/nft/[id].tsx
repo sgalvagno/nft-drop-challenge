@@ -1,15 +1,15 @@
 import React from 'react'
-import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
+// import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 
 function NFTDropPage() {
 
     // Auth
-const connectWithMetamask = useMetamask();
-const address = useAddress();
-const disconnect = useDisconnect();
+// const connectWithMetamask = useMetamask();
+// const address = useAddress();
+// const disconnect = useDisconnect();
     // --
 
-console.log("address:",address)
+// console.log("address:",address)
 
 return <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'>
        {/* Left */} 
@@ -32,15 +32,22 @@ return <div className='flex h-screen flex-col lg:grid lg:grid-cols-10'>
             <h1 className='w-52 cursor-pointer text-xl font-extralight sm:w-80'>
                 The{' '}<span className='font-extrabold underline decoration-pink-600/50'>PAPAFARM</span>{' '}
                  NFT Market Place</h1>
-            <button onClick={() => connectWithMetamask()}
+                 {/* onClick={() => connectWithMetamask()} */}
+            <button 
                 className='rounded-full bg-rose-400 px-5 py-2 
                 text-xs font-bold text-white lg:px-5 lg:py-3'>
-                {address ? 'Sing Out' : 'Sing In'}
+                {/* {address ? 'Sing Out' : 'Sing In'} */}Sing In
             </button>
         </header>
 
         <hr className='my-2 border'/>
-        {address && <p>You're logged inb with wallet {address.substring(0,5)}...{address.substring(address.length-5)}</p>}
+        {/* {address && (
+            <p className='text-center text-sm text-rose-400'>
+                You're logged in with wallet {address.substring(0,5)}
+                ...
+                {address.substring(address.length-5)}
+            </p>
+        )} */}
 
         {/* Content */}
         <div className='mt-10 flex flex-1 flex-col items-center space-y-6 text-center lg:justify-center lg:space-y-0 '>
